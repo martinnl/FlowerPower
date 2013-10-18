@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 16/10/2013 23:58:24
+EESchema Schematic File Version 2  date 17/10/2013 00:13:40
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,11 +29,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:flowerpower-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date "16 oct 2013"
 Rev ""
@@ -120,7 +121,7 @@ Connection ~ 4300 2450
 Wire Wire Line
 	3250 2450 3000 2450
 Wire Wire Line
-	4300 2450 4500 2450
+	4500 2450 4300 2450
 $Comp
 L LED D3
 U 1 1 525F0938
@@ -150,7 +151,7 @@ Connection ~ 4300 2100
 Wire Wire Line
 	3250 2100 3000 2100
 Wire Wire Line
-	4300 2100 4500 2100
+	4500 2100 4300 2100
 $Comp
 L LED D2
 U 1 1 525F0949
@@ -238,7 +239,7 @@ Wire Wire Line
 Connection ~ 3250 3850
 Connection ~ 4300 3850
 Wire Wire Line
-	3250 3850 3000 3850
+	3000 3850 3250 3850
 Wire Wire Line
 	4500 3850 4300 3850
 $Comp
@@ -270,7 +271,7 @@ Connection ~ 4300 3500
 Wire Wire Line
 	3250 3500 3000 3500
 Wire Wire Line
-	4300 3500 4500 3500
+	4500 3500 4300 3500
 $Comp
 L LED D6
 U 1 1 525F098D
@@ -300,7 +301,7 @@ Connection ~ 4300 3150
 Wire Wire Line
 	3250 3150 3000 3150
 Wire Wire Line
-	4300 3150 4500 3150
+	4500 3150 4300 3150
 $Comp
 L LED D5
 U 1 1 525F099E
@@ -330,21 +331,9 @@ Connection ~ 4300 2800
 Wire Wire Line
 	3250 2800 3000 2800
 Wire Wire Line
-	4300 2800 4500 2800
+	4500 2800 4300 2800
 Wire Wire Line
-	3000 3850 3000 3500
-Wire Wire Line
-	3000 3500 3000 3150
-Wire Wire Line
-	3000 3150 3000 2800
-Wire Wire Line
-	3000 2800 3000 2450
-Wire Wire Line
-	3000 2450 3000 2100
-Wire Wire Line
-	3000 2100 3000 1750
-Wire Wire Line
-	3000 1750 3000 1400
+	3000 1400 3000 3850
 Connection ~ 3000 2450
 Connection ~ 3000 2100
 Connection ~ 3000 1750
@@ -352,19 +341,7 @@ Connection ~ 3000 3500
 Connection ~ 3000 3150
 Connection ~ 3000 2800
 Wire Wire Line
-	4500 1400 4500 1750
-Wire Wire Line
-	4500 1750 4500 2100
-Wire Wire Line
-	4500 2100 4500 2450
-Wire Wire Line
-	4500 2450 4500 2800
-Wire Wire Line
-	4500 2800 4500 3150
-Wire Wire Line
-	4500 3150 4500 3500
-Wire Wire Line
-	4500 3500 4500 3850
+	4500 1400 4500 3850
 Connection ~ 4500 3500
 Connection ~ 4500 3150
 Connection ~ 4500 2800

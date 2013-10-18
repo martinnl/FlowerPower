@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 16/10/2013 23:58:24
+EESchema Schematic File Version 2  date 17/10/2013 00:13:40
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,11 +29,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:flowerpower-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date "16 oct 2013"
 Rev ""
